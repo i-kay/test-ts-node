@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+	  "module": "CommonJS",
+	  "target": "ES6",
+	  "removeComments": true,
+	  "preserveConstEnums": true,
+	  "sourceMap": true,
+	  "outDir": "dist",
+	  "baseUrl": "./",
+	  "paths": {
+		"@entities/*": ["src/entities/*"],
+		"@services/*": ["src/services/*"]
+	  }
+	},
+	"include": ["./src"],
+	"ts-node": {
+		"require": ["tsconfig-paths/register"]
+	}
+}
