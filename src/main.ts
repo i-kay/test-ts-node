@@ -1,6 +1,6 @@
 import { ShortNameException, User } from './entities/user.entity'
-// import { UserFactory } from './services/UserFactory.service'
-import { UserFactory } from '@services/UserFactory.service'
+import { UserFactory } from './services/UserFactory.service'
+// import { UserFactory } from '@services/UserFactory.service'
 
 const userFactory = new UserFactory()
 const user1 = userFactory.createUser({ name: 'AAA' })
